@@ -64,6 +64,66 @@
     <Compile Include="Day1\frmToplam.Designer.cs">
       <DependentUpon>frmToplam.cs</DependentUpon>
     </Compile>
+    <Compile Include="Day2\frmFactoriel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Day2\frmFactoriel.Designer.cs">
+      <DependentUpon>frmFactoriel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Day2\frmFibonacci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Day2\frmFibonacci.Designer.cs">
+      <DependentUpon>frmFibonacci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Day2\frmOrtalama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Day2\frmOrtalama.Designer.cs">
+      <DependentUpon>frmOrtalama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Day2\frmUsluSayilar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Day2\frmUsluSayilar.Designer.cs">
+      <DependentUpon>frmUsluSayilar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Day3\frmAsal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Day3\frmAsal.Designer.cs">
+      <DependentUpon>frmAsal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Day3\frmHiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Day3\frmHiz.Designer.cs">
+      <DependentUpon>frmHiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Day3\frmTekrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Day3\frmTekrar.Designer.cs">
+      <DependentUpon>frmTekrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Day4\frmArrayler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Day4\frmArrayler.Designer.cs">
+      <DependentUpon>frmArrayler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Day4\frmSayilarinAsallari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Day4\frmSayilarinAsallari.Designer.cs">
+      <DependentUpon>frmSayilarinAsallari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Day4\frmSayilarinKaresi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Day4\frmSayilarinKaresi.Designer.cs">
+      <DependentUpon>frmSayilarinKaresi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +141,36 @@
     <EmbeddedResource Include="Day1\frmToplam.resx">
       <DependentUpon>frmToplam.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Day2\frmFactoriel.resx">
+      <DependentUpon>frmFactoriel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Day2\frmFibonacci.resx">
+      <DependentUpon>frmFibonacci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Day2\frmOrtalama.resx">
+      <DependentUpon>frmOrtalama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Day2\frmUsluSayilar.resx">
+      <DependentUpon>frmUsluSayilar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Day3\frmAsal.resx">
+      <DependentUpon>frmAsal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Day3\frmHiz.resx">
+      <DependentUpon>frmHiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Day3\frmTekrar.resx">
+      <DependentUpon>frmTekrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Day4\frmArrayler.resx">
+      <DependentUpon>frmArrayler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Day4\frmSayilarinAsallari.resx">
+      <DependentUpon>frmSayilarinAsallari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Day4\frmSayilarinKaresi.resx">
+      <DependentUpon>frmSayilarinKaresi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -90,6 +180,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Day1\9.Ders.pptx" />
+    <None Include="Day4\12.Ders.pptx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -103,5 +195,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

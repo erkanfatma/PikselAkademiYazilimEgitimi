@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Week3.Day1;
+using Week3.Day2;
 
 namespace Week3 {
     internal static class Program {
@@ -14,7 +15,7 @@ namespace Week3 {
         static void Main() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmDonguler());
+            Application.Run(new frmFibonacci());
         }
     }
 }
