@@ -24,7 +24,7 @@ namespace Week3.Day1 {
         }
 
         private void btnYazdir_Click(object sender, EventArgs e) {
-            //1. For Loop
+            //1. For Loop 
             for (int i = 0; i < 10; i++) {
              //   lstSayilar.Items.Add(i);
             }
