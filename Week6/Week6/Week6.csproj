@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F61FB5B2-F108-4CA3-8C04-02B1093A1560}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Week6</RootNamespace>
+    <AssemblyName>Week6</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Day1\Week4HwSolutions\frmSoru16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Day1\Week4HwSolutions\frmSoru16.designer.cs">
+      <DependentUpon>frmSoru16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Day1\Week4HwSolutions\frmSoru7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Day1\Week4HwSolutions\frmSoru7.designer.cs">
+      <DependentUpon>frmSoru7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Day1\Week5HwSolutions\frmSoru18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Day1\Week5HwSolutions\frmSoru18.designer.cs">
+      <DependentUpon>frmSoru18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Day1\Week5HwSolutions\frmSoru4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Day1\Week5HwSolutions\frmSoru4.designer.cs">
+      <DependentUpon>frmSoru4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Day1\Week5HwSolutions\frmSoru6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Day1\Week5HwSolutions\frmSoru6.designer.cs">
+      <DependentUpon>frmSoru6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Day1\Week5HwSolutions\frmSoru8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Day1\Week5HwSolutions\frmSoru8.designer.cs">
+      <DependentUpon>frmSoru8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Day1\Review\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Day1\Review\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Day1\Review\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Day1\Review\Form2.designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Day1\Review\Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Day1\Review\Form3.designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Day1\Week4HwSolutions\frmSoru16.resx">
+      <DependentUpon>frmSoru16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Day1\Week4HwSolutions\frmSoru7.resx">
+      <DependentUpon>frmSoru7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Day1\Week5HwSolutions\frmSoru18.resx">
+      <DependentUpon>frmSoru18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Day1\Week5HwSolutions\frmSoru4.resx">
+      <DependentUpon>frmSoru4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Day1\Week5HwSolutions\frmSoru6.resx">
+      <DependentUpon>frmSoru6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Day1\Week5HwSolutions\frmSoru8.resx">
+      <DependentUpon>frmSoru8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Day1\Review\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Day1\Review\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Day1\Review\Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Tekrar.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
